@@ -1,0 +1,149 @@
+{
+    "cards": [
+      {
+        "id": 1,
+        "picture": "https://github.com/shakayet/temporary-photo/blob/main/Clothing.png?raw=true",
+        "title": "Used Clothing Drive",
+        "category": "Cloth",
+        "category_bg_color": "#ebf6e2",
+        "card_bg_color": "#ebf6e2",
+        "text_color": "#79c23f",
+        "button_bg_color": "#79c23f",
+        "description": "The 'Used Clothing Drive' initiative aims to provide quality clothing to those in need, fostering warmth and dignity within our communities. Our carefully curated collection of gently used clothing items ensures that each piece finds a new home where it will be cherished. Whether it's a cozy sweater for a cold winter's day or professional attire for a job interview, every donation makes a difference. Join us in spreading kindness and making a meaningful impact, one garment at a time. Together, we can clothe the world with compassion and care.",
+        "price": 10.99
+      },
+      {
+        "id": 2,
+        "picture": "https://github.com/shakayet/temporary-photo/blob/main/Education.png?raw=true",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg_color": "#ffe3e4",
+        "card_bg_color": "#ffe3e4",
+        "text_color": "#ff444a",
+        "button_bg_color": "#ff444a",
+        "description": "The 'Good Education' program is dedicated to ensuring that every child has access to quality learning opportunities, regardless of their background or circumstances. We believe that education is the key to unlocking a brighter future, empowering individuals to reach their full potential. Through innovative teaching methods, personalized support, and a nurturing environment, we inspire a love for learning that lasts a lifetime. Join us in building a world where every child can thrive academically and pursue their dreams.",
+        "price": 15.99
+      },
+      {
+        "id": 3,
+        "picture": "https://github.com/shakayet/temporary-photo/blob/main/Food.png?raw=true",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#feeae3",
+        "card_bg_color": "#feeae3",
+        "text_color": "#f87147",
+        "button_bg_color": "#f87147",
+        "description": "The 'Better Food for Everyone' campaign is committed to ensuring that nutritious and delicious meals are accessible to all, promoting health and well-being in our communities. We believe that everyone deserves to enjoy fresh fruits, vegetables, and wholesome ingredients that nourish the body and soul. Through partnerships with local farmers, food banks, and community organizations, we strive to eliminate food insecurity and create a culture of abundance. Together, we can build a future where no one goes hungry, and everyone can savor the joy of good food.",
+        "price": 20.99
+      },
+      {
+        "id": 4,
+        "picture": "https://github.com/shakayet/temporary-photo/blob/main/Health.png?raw=true",
+        "title": "Clean water for children",
+        "category": "water",
+        "category_bg_color": "#d9e5ff",
+        "card_bg_color": "#F0F0F0",
+        "text_color": "#0052FF",
+        "button_bg_color": "#0052FF",
+        "description": "The 'Clean Water for Children' initiative is dedicated to providing safe and accessible drinking water to children in need, ensuring their health and well-being. Access to clean water is essential for preventing waterborne diseases and promoting overall health, yet millions of children around the world lack this basic necessity. Through sustainable water projects, filtration systems, and community education, we aim to make clean water a reality for every child. Together, we can quench their thirst for a brighter future.",
+        "price": 25.99
+      },
+      {
+        "id": 5,
+        "picture": "https://github.com/shakayet/temporary-photo/blob/main/Clothing.png?raw=true",
+        "title": "Used Clothing Drive",
+        "category": "Cloth",
+        "category_bg_color": "#ebf6e2",
+        "card_bg_color": "#ebf6e2",
+        "text_color": "#79c23f",
+        "button_bg_color": "#79c23f",
+        "description": "The 'Used Clothing Drive' initiative continues its mission to provide warmth and comfort to those in need through the distribution of gently used clothing items. Every donation we receive is a gift of hope, helping individuals and families stay protected from the elements and feel a sense of dignity. Whether it's a cozy jacket for the winter months or a stylish outfit for a special occasion, our diverse selection of clothing ensures that everyone can find something they love. Join us in spreading kindness and making a positive impact in our communities.",
+        "price": 30.99
+      },
+      {
+        "id": 6,
+        "picture": "https://github.com/shakayet/temporary-photo/blob/main/Education.png?raw=true",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg_color": "#ffe3e4",
+        "card_bg_color": "#ffe3e4",
+        "text_color": "#ff444a",
+        "button_bg_color": "#ff444a",
+        "description": "The 'Good Education' program remains committed to providing transformative learning experiences that empower students to achieve their full potential. Through innovative teaching methods, personalized support, and a focus on holistic development, we cultivate a lifelong love for learning in every child. Our dedicated educators inspire curiosity, creativity, and critical thinking skills that prepare students for success in school and beyond. Join us in shaping the next generation of leaders and lifelong learners.",
+        "price": 35.99
+      },
+      {
+        "id": 7,
+        "picture": "https://github.com/shakayet/temporary-photo/blob/main/Food.png?raw=true",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#feeae3",
+        "card_bg_color": "#feeae3",
+        "text_color": "#f87147",
+        "button_bg_color": "#f87147",
+        "description": "The 'Better Food for Everyone' initiative continues its mission to revolutionize access to healthy and delicious meals for individuals and families across the globe. Through strategic partnerships, innovative programs, and community engagement, we empower people to make nutritious choices that fuel their bodies and minds. From farm to table, we prioritize sustainability, diversity, and affordability, ensuring that everyone can enjoy the benefits of good food. Together, let's create a world where everyone has the opportunity to thrive.",
+        "price": 40.99
+      },
+      {
+        "id": 8,
+        "picture": "https://github.com/shakayet/temporary-photo/blob/main/Health.png?raw=true",
+        "title": "Clean water for children",
+        "category": "water",
+        "category_bg_color": "#d9e5ff",
+        "card_bg_color": "#FFFFFF",
+        "text_color": "#0052FF",
+        "button_bg_color": "#0052FF",
+        "description": "The 'Clean Water for Children' initiative redoubles its efforts to provide life-saving access to clean and safe drinking water for vulnerable children worldwide. Waterborne diseases remain a significant threat to public health, particularly in underserved communities where access to clean water is limited. Through infrastructure improvements, community outreach, and education initiatives, we strive to ensure that every child has the fundamental right to clean water and a healthy future. Together, let's turn the tide on water scarcity and build a world where every child can thrive.",
+        "price": 45.99
+      },
+      {
+        "id": 9,
+        "picture": "https://github.com/shakayet/temporary-photo/blob/main/Clothing.png?raw=true",
+        "title": "Used Clothing Drive",
+        "category": "Cloth",
+        "category_bg_color": "#ebf6e2",
+        "card_bg_color": "#ebf6e2",
+        "text_color": "#79c23f",
+        "button_bg_color": "#79c23f",
+        "description": "The 'Used Clothing Drive' initiative is a beacon of hope for individuals and families facing adversity, providing essential clothing items to those in need. With each donation, we offer not just warmth and protection from the elements but also a sense of dignity and belonging. Our diverse selection of gently used clothing ensures that everyone can find something that suits their style and size, promoting inclusivity and self-expression. Join us in spreading warmth, kindness, and compassion to those who need it most.",
+        "price": 50.99
+      },
+      {
+        "id": 10,
+        "picture": "https://github.com/shakayet/temporary-photo/blob/main/Education.png?raw=true",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg_color": "#ffe3e4",
+        "card_bg_color": "#ffe3e4",
+        "text_color": "#ff444a",
+        "button_bg_color": "#ff444a",
+        "description": "The 'Good Education' program is dedicated to providing students with the tools, resources, and support they need to thrive academically and personally. Through personalized learning experiences, innovative teaching methods, and a focus on holistic development, we empower students to become lifelong learners and responsible global citizens. Our commitment to excellence ensures that every child receives a high-quality education that prepares them for success in the 21st century. Join us in building a brighter future for generations to come.",
+        "price": 55.99
+      },
+      {
+        "id": 11,
+        "picture": "https://github.com/shakayet/temporary-photo/blob/main/Food.png?raw=true",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#feeae3",
+        "card_bg_color": "#feeae3",
+        "text_color": "#f87147",
+        "button_bg_color": "#f87147",
+        "description": "The 'Better Food for Everyone' campaign continues its mission to transform food systems and ensure equitable access to nutritious and delicious meals for all. By advocating for policies that prioritize food security, sustainability, and social justice, we strive to address the root causes of hunger and malnutrition. Through community gardens, nutrition education programs, and food distribution initiatives, we empower individuals and families to make healthy choices that nourish their bodies and minds. Together, let's build a future where everyone has the opportunity to thrive.",
+        "price": 60.99
+      },
+      {
+        "id": 12,
+        "picture": "https://github.com/shakayet/temporary-photo/blob/main/Health.png?raw=true",
+        "title": "Clean water for children",
+        "category": "water",
+        "category_bg_color": "#d9e5ff",
+        "card_bg_color": "#FFFFFF",
+        "text_color": "#0052FF",
+        "button_bg_color": "#0052FF",
+        "description": "The 'Clean Water for Children' initiative remains steadfast in its commitment to providing clean and safe drinking water to children in need. Access to clean water is a fundamental human right, yet millions of children worldwide lack this basic necessity, risking their health and well-being. Through sustainable water projects, community partnerships, and advocacy efforts, we work tirelessly to ensure that every child has access to the clean water they need to thrive. Join us in our mission to make clean water a reality for every child, today and for generations to come.",
+        "price": 65.99
+      }
+    ]
+  }
+  
