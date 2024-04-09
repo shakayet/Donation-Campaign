@@ -1,15 +1,17 @@
 import React from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { NavLink, Outlet, useLoaderData } from 'react-router-dom';
 import './style.css'
-import logo from '../../Resources/Logo.png'
-import Banner from '../Banner/Banner';
+import AllList from '../AllList/AllList';
 
 const Home = () => {
     return (
-        <div>
-            {
-                <Banner></Banner>
-            }
+        <div >
+            <>
+                <div className='mt-20 mx-5'>
+                    <AllList></AllList>
+                </div>
+
+            </>
         </div>
     );
 };
