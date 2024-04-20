@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import List from '../List/List';
+import Destination from '../Destination/Destination';
 
 const AllList = () => {
     const [datas, setDatas] = useState([]);
@@ -8,26 +9,9 @@ const AllList = () => {
             .then(res => res.json())
             .then(data => {
                 setDatas(data);
-                console.log(data.length);
             })
             .catch(error => console.error('Error fetching data:', error));
     }, []);
-
-    const [inputValue, setInputValue] = useState('');
-
-    
-    let str = '';
-    const handleInputChange = (event) => {
-        str = event.target.value;
-        // setInputValue(event.target.value); 
-    };
-
-    const handleSearch = () => {
-        const char = str.charAt(0).toUpperCase();
-        let newStr = str.slice(1);
-        newStr = char + newStr;
-        setInputValue(newStr);
-    };
 
     return (
         <div>
@@ -42,22 +26,19 @@ const AllList = () => {
                         name="src"
                         id=""
                         placeholder='Search here....'
-                        onChange={handleInputChange} 
+                    // onChange={handleInputChange} // Attach the handleInputChange function to the onChange event of the input field
                     />
-                    <button className='bg-[#ff0000] p-5 rounded-r-lg text-white' name='btn' onClick={handleSearch}>
+                    <button className='bg-[#ff0000] p-5 rounded-r-lg text-white' name='btn' >
                         Search
                     </button>
                 </div>
             </div>
             <div className='grid grid-cols-4 gap-16'>
-                {
-                    datas.map(data => {
-                        if(inputValue == data.category || inputValue == ''){
-                            return <List key={data.id} data={data}></List>
-                        }
-                        return null;
-                    })
-                }
+                {datas.length > 0 && datas.map(data => (
+                    <div key={data.id}>
+                        <List data={data} />
+                    </div>
+                ))}
             </div>
         </div>
     );
