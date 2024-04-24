@@ -10,6 +10,8 @@ import Root from './assets/component/Root/Root.jsx';
 import ErrorPage from './assets/component/ErrorPage/ErrorPage.jsx';
 import Destination from './assets/component/Destination/Destination.jsx';
 import Home from './assets/component/Home/Home.jsx';
+import Details from './assets/component/Details/Details.jsx';
+import Statistics from './assets/component/Statistics/Statistics.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +25,16 @@ const router = createBrowserRouter([
       },
       {
         path: '/home',
-        element: <Home></Home>
+        element: <Home></Home>,
+      },
+      {
+        path: '/details/:id',
+        element: <Details></Details>,
+        loader: () => fetch('../public/data.json'),
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
       }
     ]
   },

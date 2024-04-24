@@ -1,4 +1,6 @@
+// List.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const List = ({ data }) => {
     const { id, title, category, picture, category_bg_color, button_bg_color, text_color, card_bg_color } = data;
@@ -38,7 +40,11 @@ const List = ({ data }) => {
     return (
         <div>
             <div className={`w-72 shadow-xl ${bgColorClass}`}>
-                <figure><img src={picture} alt="Shoes" /></figure>
+                <figure>
+                    <Link to={`/details/${id}`} className="block">
+                        <img src={picture} alt="Shoes" />
+                    </Link>
+                </figure>
                 <div className={`card-body`}>
                     <div>
                         <button onClick={selectObjectById} className={`card-title ${bgtext} ${bgbtn} px-1 rounded-md text-[14px]`}>
