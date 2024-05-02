@@ -12,6 +12,8 @@ import Destination from './assets/component/Destination/Destination.jsx';
 import Home from './assets/component/Home/Home.jsx';
 import Details from './assets/component/Details/Details.jsx';
 import Statistics from './assets/component/Statistics/Statistics.jsx';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const router = createBrowserRouter([
   {
@@ -43,5 +45,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <ToastContainer />
   </React.StrictMode>
 );

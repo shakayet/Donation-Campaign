@@ -23,9 +23,12 @@ const Details = () => {
                 <div className='px-5'>
                     <figure className='py-10 flex justify-center relative'>
                         <img className='w-full h-[500px]' src={job.picture} alt="" />
-                        <div className="absolute inset-x-0 bottom-0 bg-black opacity-50 h-32"></div>
+                        <div className="absolute inset-x-0 bottom-0 bg-black opacity-50 h-32 flex items-center justify-start px-24">
+                            <button className='btn bg-red-700 text-white px-7 py-2 opacity-100'>{job.price}</button>
+                        </div>
+
                     </figure>
-                    <h3 className='font-extrabold text-left pb-5'>{job.title}</h3>
+                    <h3 className='font-extrabold text-left py-5'>{job.title}</h3>
                     <p className='text-left'>{job.description}</p>
                 </div>
             )}

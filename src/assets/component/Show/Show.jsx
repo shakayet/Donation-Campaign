@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Show = ({ data }) => {
     const { id, title, category, picture, category_bg_color, button_bg_color, text_color, card_bg_color, price } = data;
@@ -52,7 +53,9 @@ const Show = ({ data }) => {
                     <h2 className="card-title py-1">{title}</h2>
                     <p className={`text-left ${txt} pb-2 font-medium`}>${price}</p>
                     <div className="card-actions justify-start">
-                        <button className={`btn ${bgtext} text-white`}>View Details</button>
+                        <Link to={`/details/${id}`} className={`btn ${bgtext} text-white`}>
+                            View Details
+                        </Link>
                     </div>
                 </div>
             </div>

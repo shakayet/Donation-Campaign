@@ -1,6 +1,7 @@
 // List.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 const List = ({ data }) => {
     const { id, title, category, picture, category_bg_color, button_bg_color, text_color, card_bg_color } = data;
@@ -34,7 +35,13 @@ const List = ({ data }) => {
     }
 
     const selectObjectById = () => {
-        localStorage.setItem(id, id);
+        if(localStorage.getItem(id) != null){
+            toast('Already Added');
+        }
+        else{
+            localStorage.setItem(id, id);
+            toast('Successfully Added');
+        }
     };
 
     return (

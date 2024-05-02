@@ -4,14 +4,31 @@ import Destination from '../Destination/Destination';
 
 const AllList = () => {
     const [datas, setDatas] = useState([]);
+    const [srch, setSrch] = useState('');
+    const [filteredData, setFilteredData] = useState([]);
+
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => {
                 setDatas(data);
+                setFilteredData(data);
             })
             .catch(error => console.error('Error fetching data:', error));
     }, []);
+
+    const handleInputChange = e => {
+        setSrch(e.target.value);
+    }
+
+    const handleClick = () => {
+        if (srch.trim() !== '') {
+            const filtered = datas.filter(data => data.category.toLowerCase() === srch.toLowerCase());
+            setFilteredData(filtered);
+        } else {
+            setFilteredData(datas);
+        }
+    }
 
     return (
         <div>
@@ -26,15 +43,15 @@ const AllList = () => {
                         name="src"
                         id=""
                         placeholder='Search here....'
-                    // onChange={handleInputChange} // Attach the handleInputChange function to the onChange event of the input field
+                        onChange={handleInputChange}
                     />
-                    <button className='bg-[#ff0000] p-5 rounded-r-lg text-white' name='btn' >
+                    <button className='bg-[#ff0000] p-5 rounded-r-lg text-white' name='btn' onClick={handleClick}>
                         Search
                     </button>
                 </div>
             </div>
             <div className='grid grid-cols-4 gap-16'>
-                {datas.length > 0 && datas.map(data => (
+                {filteredData.length > 0 && filteredData.map(data => (
                     <div key={data.id}>
                         <List data={data} />
                     </div>
